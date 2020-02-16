@@ -5,4 +5,4 @@ dist: bionic
 sudo: false
 install: true
 script:
-  - env GO111MODULE=on go test
+  - go test

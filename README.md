@@ -41,7 +41,7 @@ func main() {
 	f.MoveSection("database")          // navigate to database section
 	fmt.Println(f.Get("server"))       //  192.0.2.62
 	fmt.Println(f.Get("port"))         //  9080
-	fmt.Println(f.Get("organization")) //  empty string as organization is defined in another section
+	fmt.Println(f.Get("organization")) //  empty as organization is in another section
 
 	f.MoveSection("owner")             // navigate to owner section
 	fmt.Println(f.Get("organization")) // Acme Widgets Inc.

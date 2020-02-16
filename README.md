@@ -1,6 +1,8 @@
 ## GoIni
 
-A very simple go package for parsing init files
+A very simple go package for parsing init files 
+
+[![Build Status](https://travis-ci.com/evanxg852000/goini.svg?branch=master)](https://travis-ci.com/evanxg852000/goini)
 
 
 ```go

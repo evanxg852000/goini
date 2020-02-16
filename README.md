@@ -30,6 +30,7 @@ file="payroll.dat"
 `
 
 func main() {
+    // parse an ini file
 	f, err := goini.NewIniFile(strings.NewReader(config))
 	if err != nil {
 		fmt.Println("Parser Error ", err)
